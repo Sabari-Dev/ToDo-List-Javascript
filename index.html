@@ -114,7 +114,7 @@
       //adding the value from input using btn
       addBtn.addEventListener("click", (e) => {
         e.preventDefault();
-        addingTask(addTask);
+        addTask.value ? addingTask(addTask) : alert("Enter any task!");
       });
     </script>
   </body>
