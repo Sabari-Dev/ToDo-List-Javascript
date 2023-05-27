@@ -93,4 +93,7 @@ ul button {
     width: 90vw;
     margin: 4px 20px;
   }
+ li {
+    width: 90vw;
+  }
 }
